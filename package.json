@@ -1,0 +1,23 @@
+{
+  "name": "sentimentanalysis",
+  "version": "1.0.0",
+  "description": "Analyze news articles and stock data to forecast the market",
+  "main": "myapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeJohnson05/sentimentAnalysis.git"
+  },
+  "author": "Jake Johnson & Todd Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeJohnson05/sentimentAnalysis/issues"
+  },
+  "homepage": "https://github.com/JakeJohnson05/sentimentAnalysis#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nouislider": "^13.1.3"
+  }
+}

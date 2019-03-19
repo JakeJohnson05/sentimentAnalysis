@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sentiment Analysis Forecast</title>
+	<link rel="stylesheet" type="text/css" href="css/sentimentAnalysis.css">
+	<script type="text/javascript" src="js/sentimentAnalysis.js"></script>
+	<link rel="stylesheet" type="text/css" href="nouislider.css">
+	<script type="text/javascript" src="nouislider.js"></script>
+</head>
+<body>
+	<div id="content">
+		<div id="banner">
+			<div id="title">Sentiment Analysis and The Stock Market</div>
+			<div id="buttons">
+				<div class="button" onclick="alert('Thanks')">Click Me!</div>
+				<div class="button" onclick="alert('Thanks')">Or Me!</div>
+				<div class="button" onclick="alert('FUCK YOU YOU FUCKING LOSER YOU ASSHOLE! I HOPE YOU DIE SLOWLY AND UNABLE TO PLEAD FOR THE SWEET RELEASE OF DEATH OVER THE COURSE OF YEARS YOU FUCK! I HATE YOU SO MUCH! HOPE YOU BURN IN HELL')">Dont Fucking Click Me</div>
+			</div>
+		</div>
+		<div id="main-content">
+			<div id="title">Analyze Some Stuff</div>
+			<div id="description">Use this to analyze some stuff. Including and limited to stock data and news article sentiment ratings. Its not very good right now so I would definitely only use paperstocks for roughly forever.</div>
+			<div id="actual-content">
+				<div>
+					<form action="">
+						<div id="form-container" class="form-container">
+							<div class="input-container company">
+								<div class="input-title">Company:</div>
+								<select class="form-data inset">
+									<option value="" disabled>-- Choose Company --</option>
+								</select>
+							</div>
+							<div class="input-container date-range">
+								<div class="input-title">Date Range:</div>
+								<div class="range-values">
+									<div id="range-value-low" class="range-value form-data" style="text-align:right;"></div>
+									<div style="text-align:center;">&ndash;</div>
+									<div id="range-value-high" class="range-value form-data" style="text-align:left;"></div>
+								</div>
+								<div id="date-range" class="range inset"></div>
+							</div>
+							<div id="submit-button" class="submit-button" onclick="sendData();">
+								<div class="text">Update</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div id="graph" class="graph">
+					<div>Graph Data:</div>
+					<div id="graph-data"style="font-size:60%;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer">WE DO STUFF!</footer>
+</body>
+</html>
